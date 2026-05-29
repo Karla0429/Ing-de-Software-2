@@ -1,1 +1,67 @@
+Investigación de un Proyecto de Software Fallido
+Proyecto seleccionado:
+Healthcare.gov
+*******************Descripción del Proyecto************************************************
 
+Healthcare.gov fue una plataforma web lanzada por el gobierno de Estados Unidos en 2013 para permitir a los ciudadanos registrarse y adquirir seguros médicos bajo la Ley de Cuidado de Salud Asequible (Affordable Care Act).
+
+El proyecto tenía como objetivo centralizar el acceso a planes de salud de manera rápida y sencilla para millones de usuarios.
+
+Sin embargo, al momento de su lanzamiento, el sistema presentó múltiples fallos críticos:
+
+Caídas constantes del servidor.
+Lentitud extrema.
+Errores en registros de usuarios.
+Problemas de integración entre módulos.
+Fallos en bases de datos y autenticación.
+
+Esto provocó pérdidas económicas, mala reputación y retrasos importantes en la adopción del sistema.
+
+*****************************************Fase del SDLC donde ocurrió el fallo principal****************************************************
+Fase afectada:
+Pruebas (Testing) e Integración
+
+El fallo principal ocurrió durante la fase de pruebas e integración del SDLC, debido a que:
+
+No se realizaron pruebas de carga suficientes.
+Los distintos módulos desarrollados por diferentes empresas no fueron integrados correctamente.
+No se validó el comportamiento del sistema con millones de usuarios simultáneos.
+Existió poca coordinación entre equipos de desarrollo.
+
+Como resultado, el sistema colapsó inmediatamente después del lanzamiento oficial.
+
+****************************************************Diagrama Simple del SDLC*******************************************************************
+PLANIFICACIÓN
+      ↓
+ANÁLISIS
+      ↓
+DISEÑO
+      ↓
+DESARROLLO
+      ↓
+PRUEBAS  ←←← PUNTO PRINCIPAL DE FALLO
+      ↓
+IMPLEMENTACIÓN
+      ↓
+MANTENIMIENTO
+*******************************************************Herramienta de IA que pudo haber prevenido el fallo***********************************************************
+
+Una herramienta de IA que pudo ayudar es:
+
+GitHub Copilot
+
+Esta herramienta pudo haber ayudado a:
+
+Detectar errores de código antes de la implementación.
+Sugerir mejores prácticas de programación.
+Automatizar pruebas básicas.
+Identificar posibles problemas de integración.
+Reducir errores humanos en el desarrollo.
+
+También pudieron utilizarse herramientas de monitoreo inteligente y pruebas automatizadas basadas en IA para simular miles de usuarios simultáneos antes del lanzamiento.
+
+****************************************Conclusión***********************************************************************************
+
+El caso de Healthcare.gov demuestra la importancia de realizar pruebas completas y una correcta integración de sistemas antes de lanzar un software a gran escala.
+
+Un proyecto puede fracasar incluso teniendo grandes recursos económicos si no existe una adecuada gestión técnica y control de calidad. Las herramientas de inteligencia artificial actualmente pueden ayudar significativamente a prevenir este tipo de errores mediante automatización, análisis predictivo y pruebas inteligentes.
